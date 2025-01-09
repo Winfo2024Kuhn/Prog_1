@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7aabda9e-6aa9-4bdd-98b5-47164cf4b875" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+    <option name="showPreview" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2nG2zzVqgSdxUkqOjI6EELdFIzP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BlutKonzentration.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BubbleSort.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CarInstance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ErsetzeDateiname_1a.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ErweiterteKoeffizientenMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GaussJordan.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GaussJordanSimplified.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L1_ÜB3_Konsolenausgabe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L1_ÜB5_Variablen_tauschen.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L2_UE2_PQ_Formel.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L2_UE3_Uhrzeit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L2_ÜB1_Kreisfläche.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L3_ÜB1_Modulo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L3_ÜB2_Pizzarechner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L3_ÜB3_Einzelzeichen.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L3_ÜB4_Würfelwurf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L3_ÜB5_Matrikelnummer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L3_ÜB6_Schaltjahr (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.L3_ÜB6_Schaltjahr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L3_ÜB7_GültigeUhrzeit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L4_ÜB1_Countdown.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L4_ÜB1_Countdown_a.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L4_ÜB1_Querprodukt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L4_ÜB2_FreierFall.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L4_ÜB2_FreierFall_a.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L4_ÜB2_FreierFall_b.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L4_ÜB3_Primzahlen.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L4_ÜB3_Primzahlen_a.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L4_ÜB3_Primzahlen_b.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L4_ÜB3_b.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L4_ÜB5_Querprodukt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L4_ÜB6_DasKleineEinMalEins.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LaplaceExpansion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lektion_5.ÜB5_Pi_Berechnung.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainFlasche.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainRaum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Mathe.GaussJordan.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MatrixRechner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Menu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OnlineShop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PasswordGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reihenwert_Berechnung.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reihenwert_Berechnung_b.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.galgenmännchen.executor&quot;: &quot;Run&quot;,
+    &quot;Application.l4_ÜB4_Temperaturtabelle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mainPasswort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ÜB1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ÜB1_Reihenwert_Berechnung_b.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ÜB1_a_Runden.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ÜB1_b_Runden.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ÜB1_galgenmännchen.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ÜB2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ÜB2_EinfacherRechner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ÜB2_Fakultät.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ÜB2_Potenz.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ÜB3_Stern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ÜB4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ÜB4_Primzahl.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ÜB4_Quadratwurzel.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ÜB4_StringMethoden.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ÜB5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ÜB5_CarInstance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ÜB5_Pi_Berechnung (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ÜB5_Pi_Berechnung.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ÜB5_Potenz.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ÜB6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ÜB6_Sprünge.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/OneDrive/Dokumente/Studium/1. Semester/Programmieren 1/Programmieren&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="Lektion_7.ÜB1" />
+      <recent name="Lektion_7.ÜB2" />
+      <recent name="ausgabeStern" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="Mathe" />
+      <recent name="Lektion_6" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Lektion_6" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.OnlineShop">
+    <configuration name="BlutKonzentration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Altklausuren.BlutKonzentration" />
+      <module name="Programmieren" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Altklausuren.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L1_ÜB3_Konsolenausgabe" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lektion_1.L1_ÜB3_Konsolenausgabe" />
+      <module name="Programmieren" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lektion_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L1_ÜB5_Variablen_tauschen" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Lektion_1.L1_ÜB5_Variablen_tauschen" />
+      <module name="Programmieren" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lektion_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainFlasche" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lektion_9.ÜB4_Flasche.MainFlasche" />
+      <module name="Programmieren" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lektion_9.ÜB4_Flasche.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainRaum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lektion_9.ÜB3_Raumbelegung.MainRaum" />
+      <module name="Programmieren" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lektion_9.ÜB3_Raumbelegung.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OnlineShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Altklausuren.OnlineShop" />
+      <module name="Programmieren" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Altklausuren.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="Programmieren" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mainPasswort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lektion_8.ZusätzlicheÜbungsaufgaben.mainPasswort" />
+      <module name="Programmieren" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lektion_8.ZusätzlicheÜbungsaufgaben.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.L1_ÜB3_Konsolenausgabe" />
+      <item itemvalue="Application.L1_ÜB5_Variablen_tauschen" />
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.BlutKonzentration" />
+      <item itemvalue="Application.OnlineShop" />
+      <item itemvalue="Application.MainFlasche" />
+      <item itemvalue="Application.MainRaum" />
+      <item itemvalue="Application.mainPasswort" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OnlineShop" />
+        <item itemvalue="Application.BlutKonzentration" />
+        <item itemvalue="Application.mainPasswort" />
+        <item itemvalue="Application.MainFlasche" />
+        <item itemvalue="Application.MainRaum" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-22-openjdk-22-3183f394aec4-bad0321e" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="1" Folder0="C:\Users\bausc\Downloads" CustomDictionaries="1" CustomDictionary0="C:\Users\bausc\Downloads\index.dic" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7aabda9e-6aa9-4bdd-98b5-47164cf4b875" name="Changes" comment="" />
+      <created>1728585359823</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728585359823</updated>
+      <workItem from="1728585361634" duration="159000" />
+      <workItem from="1728585578106" duration="143000" />
+      <workItem from="1728585727965" duration="30000" />
+      <workItem from="1728585763280" duration="740000" />
+      <workItem from="1728586533788" duration="153000" />
+      <workItem from="1728586741294" duration="191000" />
+      <workItem from="1728586940648" duration="811000" />
+      <workItem from="1728587917510" duration="1925000" />
+      <workItem from="1728810539210" duration="392000" />
+      <workItem from="1728813627006" duration="1598000" />
+      <workItem from="1728837333880" duration="82000" />
+      <workItem from="1728837422842" duration="9000" />
+      <workItem from="1728837437527" duration="1198000" />
+      <workItem from="1728838657755" duration="78000" />
+      <workItem from="1728838742822" duration="8100000" />
+      <workItem from="1728979222348" duration="1964000" />
+      <workItem from="1728983331375" duration="14000" />
+      <workItem from="1728984607521" duration="16000" />
+      <workItem from="1729005713838" duration="10189000" />
+      <workItem from="1729109387034" duration="1236000" />
+      <workItem from="1729152075589" duration="6024000" />
+      <workItem from="1729174967459" duration="12061000" />
+      <workItem from="1729530543627" duration="2612000" />
+      <workItem from="1729783633637" duration="19268000" />
+      <workItem from="1729804807526" duration="2942000" />
+      <workItem from="1729852791782" duration="13222000" />
+      <workItem from="1730152790606" duration="170000" />
+      <workItem from="1730186183696" duration="6977000" />
+      <workItem from="1730414274941" duration="1470000" />
+      <workItem from="1730478469732" duration="746000" />
+      <workItem from="1730646329936" duration="2000" />
+      <workItem from="1730730233623" duration="21718000" />
+      <workItem from="1730802699418" duration="822000" />
+      <workItem from="1730893001950" duration="17173000" />
+      <workItem from="1731149528917" duration="870000" />
+      <workItem from="1731324516969" duration="3005000" />
+      <workItem from="1731344987616" duration="6705000" />
+      <workItem from="1731401648306" duration="4412000" />
+      <workItem from="1731436763780" duration="596000" />
+      <workItem from="1731790953890" duration="71000" />
+      <workItem from="1731835544162" duration="21413000" />
+      <workItem from="1731863047295" duration="503000" />
+      <workItem from="1731863837822" duration="7148000" />
+      <workItem from="1732006402818" duration="5336000" />
+      <workItem from="1732049701813" duration="613000" />
+      <workItem from="1732120687172" duration="10154000" />
+      <workItem from="1732185790221" duration="7509000" />
+      <workItem from="1732209743567" duration="26738000" />
+      <workItem from="1732290947457" duration="6448000" />
+      <workItem from="1732308501972" duration="12233000" />
+      <workItem from="1732389449487" duration="3326000" />
+      <workItem from="1732786079992" duration="1000" />
+      <workItem from="1732907269642" duration="4907000" />
+      <workItem from="1733047347592" duration="16664000" />
+      <workItem from="1733071645676" duration="3103000" />
+      <workItem from="1733081889309" duration="36815000" />
+      <workItem from="1733249882244" duration="2448000" />
+      <workItem from="1733319129787" duration="9004000" />
+      <workItem from="1733597866919" duration="21178000" />
+      <workItem from="1733674422805" duration="10313000" />
+      <workItem from="1733742991130" duration="724000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Übungen/Übungen/src/Mathe/BubbleSort.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Übungen/Übungen/src/Mathe/BubbleSort.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
