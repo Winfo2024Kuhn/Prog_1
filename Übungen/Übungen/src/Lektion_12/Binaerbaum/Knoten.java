@@ -1,16 +1,11 @@
 package Lektion_12.Binaerbaum;
 
 public class Knoten {
-    String wort;
-    String bedeutung;
+    Wort wort;
     Knoten left;
     Knoten right;
 
-    public Knoten(String wort, String bedeutung) {
+    public Knoten(Wort wort) {
         this.wort = wort;
-        this.bedeutung = bedeutung;
-    }
-    public String toString(){
-        return "Wort: " + wort + " Bedeutung: " + bedeutung + "\n";
     }
 }
