@@ -8,4 +8,16 @@ public class Knoten {
     public Knoten(Wort wort) {
         this.wort = wort;
     }
+
+    public Wort getWort() {
+        return this.wort;
+    }
+
+    public Knoten getLeft() {
+        return left;
+    }
+
+    public Knoten getRight() {
+        return right;
+    }
 }

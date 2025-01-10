@@ -12,4 +12,5 @@ public class Wort {
     public String toString() {
         return "Wort: " + wort + " Bedeutung: " + bedeutung + "\n";
     }
+
 }

@@ -10,6 +10,10 @@ public class ÜB4_Quadratwurzel {
         System.out.println(getSqrt(x));
     }
     public static double getSqrt(double input){
+        if (input == 0){
+            System.out.println("Die Wurzel von " + input + " ist nicht definiert");
+            return -1;
+        }
         double result = 1;
         for (int i = 1; i <= 1000; i++){
             result = ((input/result)+result)/2;
