@@ -1,73 +1,82 @@
 package Altklausuren.SpaceInvaders;
 
-public class SpaceInvaders {
-    private char[][] spielfeld;
-    private int schiffZeile = 4;
-    private int schiffSpalte;
-    char alien = 'o';
-    char schiff = 'v';//
+import java.util.Scanner;
 
-    public SpaceInvaders() {
-        spielfeld = new char[5][8];
-        schiffSpalte = (int) (Math.random() * 8);
+public class SpaceInvaders {
+    int zeilen = 5;
+    int spalten = 7;
+    char[][] spielfeld = new char[zeilen][spalten];
+    char raumschiff = 'V';
+    char alien = 'O';
+    int koordinateRaumschiff;
+
+    public void initialisiereSpiel() {
         for (int i = 0; i < spielfeld.length; i++) {
             for (int j = 0; j < spielfeld[i].length; j++) {
                 if (i == 0) {
                     spielfeld[i][j] = alien;
-                } else spielfeld[i][j] = ' ';
-                if (i == schiffZeile && j == schiffSpalte) {
-                    spielfeld[i][j] = schiff;
+                } else if (i == zeilen-1) {
+                    int random = (int) (Math.random() * spalten);
+                    koordinateRaumschiff = random;
+                    spielfeld[i][random] = raumschiff;
+                    break;
                 }
             }
         }
-
+        System.out.println(toString());
     }
 
     public void bewege(char c) {
-        for (int i = 0; i < spielfeld[schiffZeile].length; i++) {
-            spielfeld[schiffZeile][i] = ' ';
-        }
-        if (c == 'a' && istImFeld(schiffSpalte - 1)) {
-            schiffSpalte--;
-        }
-        if (c == 'd' && istImFeld(schiffSpalte + 1)) {
-            schiffSpalte++;
-        }
-        spielfeld[schiffZeile][schiffSpalte] = schiff;
+        int alienZeile = zeilen - 1;
+        if (c == 'a') {
+            koordinateRaumschiff--;
+            if (istImFeld()) {
+                spielfeld[alienZeile][koordinateRaumschiff] = raumschiff;
+                spielfeld[alienZeile][koordinateRaumschiff + 1] = '\0';
+            } else koordinateRaumschiff++;
+        } else if (c == 'd') {
+            koordinateRaumschiff++;
+            if (istImFeld()) {
+                spielfeld[alienZeile][koordinateRaumschiff] = raumschiff;
+                spielfeld[alienZeile][koordinateRaumschiff - 1] = '\0';
+            } else koordinateRaumschiff--;
+        } else System.out.print("Geben Sie nur 'a' oder 'd' ein: ");
+        System.out.println(toString());
     }
 
-    public boolean istImFeld(int schiffSpalte) {
-        if (schiffSpalte >= 0 && schiffSpalte <= 7) {
-            return true;
-        } else return false;
-    }
-
-    @Override
     public String toString() {
         String s = "";
-        for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < 8; j++) {
-                s += (spielfeld[i][j]);
-                s += " ";
+        for (int i = 0; i < spielfeld.length; i++) {
+            for (int j = 0; j < spielfeld[i].length; j++) {
+                char traveler = spielfeld[i][j];
+                if (traveler == '\0') {
+                    s += " ";
+                } else s += spielfeld[i][j];
             }
-            s += ('\n');
+            s += "\n";
         }
         return s;
     }
 
-    public static void main(String[] args) {
-        SpaceInvaders spiel = new SpaceInvaders();
-        java.util.Scanner s = new java.util.Scanner(System.in);
-        System.out.println(spiel);
+    public boolean istImFeld() {
+        if (koordinateRaumschiff >= 0 && koordinateRaumschiff < spalten) {
+            return true;
+        } else return false;
+    }
 
-        // Schleife bis 'x' eingegeben wird
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        SpaceInvaders spiel = new SpaceInvaders();
+        spiel.initialisiereSpiel();
         while (true) {
-            char eingabe = s.next().charAt(0);
-            if (eingabe == 'x') break;
-            spiel.bewege(eingabe);
-            System.out.println(spiel);
+            System.out.print("Geben sie 'a' oder 'b' ein: ");
+            String input = s.nextLine();
+            if (input == "") {
+                System.out.println("Sie haben keine Eingabe getätigt");
+            } else {
+                char c = input.charAt(0);
+                spiel.bewege(c);
+            }
         }
-        s.close();
-        System.out.println("Spiel beendet.");
     }
 }
