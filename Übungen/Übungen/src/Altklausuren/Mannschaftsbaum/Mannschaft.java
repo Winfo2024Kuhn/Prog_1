@@ -7,7 +7,6 @@ public class Mannschaft {
 
     public Mannschaft(String name){
         this.name = name;
-        Knoten neu = new Knoten(this);
     }
     public String getName(){
         return name;

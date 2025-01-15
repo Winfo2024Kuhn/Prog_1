@@ -38,7 +38,7 @@ public class Flasche {
         Flasche f = new Flasche("Prog 1", "SoSe 23", 750);
         while (!f.istLeer()) {
             int i = f.reduziereFuellstand(130);
-            System.out.println("Es konnten " + i + " ml entnomm	en werden.");
+            System.out.println("Es konnten " + i + " ml entnommen werden.");
             System.out.println("Der neue Füllstand beträgt: " + f.fuellstand);
         }
     }
