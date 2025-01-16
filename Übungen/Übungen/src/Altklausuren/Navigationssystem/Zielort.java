@@ -2,29 +2,31 @@ package Altklausuren.Navigationssystem;
 
 public class Zielort {
     private String name;
-    private int index;  // z.B. Distanz, Position oder was du möchtest
+    private int distanz;
     Zielort next;
 
-    public Zielort(String name, int index) {
+    public Zielort(String name, int distanz) {
         this.name = name;
-        this.index = index;
-        next = null;
+        this.distanz = distanz;
     }
 
     public String getName() {
         return name;
     }
 
-    public int getIndex() {
-        return index;
+    public int getDistanz() {
+        return distanz;
     }
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public void setIndex(int index) {
-        this.index = index;
+    public void setDistanz(int distanz) {
+        this.distanz = distanz;
+    }
+    public String toString(){
+        return "Ortsname: " + name + " Distanz: " + distanz + " km";
     }
 
 }
