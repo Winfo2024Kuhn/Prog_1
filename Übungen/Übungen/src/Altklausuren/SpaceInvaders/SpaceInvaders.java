@@ -27,18 +27,18 @@ public class SpaceInvaders {
     }
 
     public void bewege(char c) {
-        int alienZeile = zeilen - 1;
+        int raumschiffZeile = zeilen - 1;
         if (c == 'a') {
             koordinateRaumschiff--;
             if (istImFeld()) {
-                spielfeld[alienZeile][koordinateRaumschiff] = raumschiff;
-                spielfeld[alienZeile][koordinateRaumschiff + 1] = '\0';
+                spielfeld[raumschiffZeile][koordinateRaumschiff] = raumschiff;
+                spielfeld[raumschiffZeile][koordinateRaumschiff + 1] = '\0';
             } else koordinateRaumschiff++;
         } else if (c == 'd') {
             koordinateRaumschiff++;
             if (istImFeld()) {
-                spielfeld[alienZeile][koordinateRaumschiff] = raumschiff;
-                spielfeld[alienZeile][koordinateRaumschiff - 1] = '\0';
+                spielfeld[raumschiffZeile][koordinateRaumschiff] = raumschiff;
+                spielfeld[raumschiffZeile][koordinateRaumschiff - 1] = '\0';
             } else koordinateRaumschiff--;
         } else System.out.print("Geben Sie nur 'a' oder 'd' ein: ");
         System.out.println(toString());
