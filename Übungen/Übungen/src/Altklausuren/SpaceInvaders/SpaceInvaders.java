@@ -1,5 +1,4 @@
 package Altklausuren.SpaceInvaders;
-
 import java.util.Scanner;
 
 public class SpaceInvaders {
