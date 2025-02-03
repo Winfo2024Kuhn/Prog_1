@@ -1,35 +1,40 @@
 package Altklausuren.SozialesNetzwerk;
 
 public class Timeline {
-    Post start;
+    Post neu;
 
     public Timeline() {
-        start = null;
+        this.neu = neu;
     }
-
-    public void fuegePostEin(Post neu) {
-        if (start == null) {
-            start = neu;
-        } else {
-            Post temp = start;
-            start = neu;
-            start.next = temp;
+     public boolean isEmpty(){
+        return neu == null;
+     }
+     public void fuegePostEin(Post in){
+        if (isEmpty()){
+            neu = in;
         }
-    }
-
-    public String gibAus() {
-        String s = "";
-        Post temp = start; // Temp zeigt auf den Start der Timeline
-
-        // Durchlaufen der verketteten Liste
-        while (temp != null) {
-            // Post-Inhalt zur Ausgabe hinzufügen
-            s += temp.absender + " -> " + temp.empfaenger + "\n" + temp.text + "\n\n";
-
-            // Zum nächsten Post gehen
+        else {
+            in.next = neu;
+            neu = in;
+        }
+     }
+     public void gibAus(){
+        Post temp = neu;
+        while (temp != null){
+            System.out.print(temp);
             temp = temp.next;
         }
+     }
 
-        return s; // Rückgabe der gesamten Timeline als String
-    }
+     public static void main (String [] args){
+        Timeline t = new Timeline();
+        Post[] p = new Post[3];
+        p[0] = new Post("Gutes neues Jahr!", "Alice", "Bob");
+        p[1] = new Post("Danke! Guten Rutsch ins neue Jahr!", "Bob", "Alice");
+        p[2] = new Post("Frohe Weihnachten!", "Alice", "Bob");
+        for (int i = 0; i< p.length; i++){
+            t.fuegePostEin(p[i]);
+        }
+        t.gibAus();
+     }
 }

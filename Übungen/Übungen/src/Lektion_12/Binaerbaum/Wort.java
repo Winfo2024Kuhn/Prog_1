@@ -1,16 +1,16 @@
 package Lektion_12.Binaerbaum;
 
 public class Wort {
-    String wort;
+    String name;
     String bedeutung;
 
-    public Wort(String wort, String bedeutung) {
-        this.wort = wort;
+    public Wort(String name, String bedeutung) {
+        this.name = name;
         this.bedeutung = bedeutung;
     }
 
     public String toString() {
-        return "Wort: " + wort + " Bedeutung: " + bedeutung + "\n";
+        return "Wort: " + name + " Bedeutung: " + bedeutung + "\n";
     }
 
 }

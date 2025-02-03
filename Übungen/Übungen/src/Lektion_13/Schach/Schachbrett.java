@@ -1,37 +1,37 @@
 package Lektion_13.Schach;
 
 public class Schachbrett {
-    boolean[][] brett = new boolean[8][8];
-
-    public void setzeTurm(int zeile, int spalte) {
-        for (int i = 0; i < brett.length; i++) {
-            for (int j = 0; j < brett[i].length; j++) {
+    private boolean[][] brett = new boolean[8][8];
+    public Schachbrett(){
+        for (int i = 0; i < brett.length; i++){
+            for (int j = 0; j< brett[i].length; j++){
                 brett[i][j] = false;
             }
         }
-        for (int i = 0; i< brett[zeile].length; i++){
-            brett[i][spalte] = true;
-        }
-        for (int i = 0; i< brett.length; i++){
-            brett[zeile][i] = true;
+    }
+    public void setzeTurm(int x, int y){
+        for (int i = 0; i < brett.length; i++){
+            for (int j = 0; j < brett[i].length; j++){
+                brett[i][y] = true;
+                brett[x][j] = true;
+            }
         }
     }
-
-    @Override
     public String toString() {
         String s = "";
-        String temp = "";
         for (int i = 0; i < brett.length; i++) {
-            temp = "";
             for (int j = 0; j < brett[i].length; j++) {
-
-                if (!brett[i][j]) {
-                    temp += " O ";
-                } else temp += " X ";
+                if (brett[i][j] == true) {
+                    s += " x ";
+                } else s += " 0 ";
             }
-            temp +="\n";
-            s += temp;
+            s += "\n";
         }
         return s;
+    }
+    public static void main(String[] args){
+        Schachbrett s = new Schachbrett();
+        s.setzeTurm(3,5);
+        System.out.println(s);
     }
 }

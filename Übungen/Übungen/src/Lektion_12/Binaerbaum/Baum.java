@@ -14,7 +14,7 @@ public class Baum {
     }
 
     private void insert(Knoten temp, Knoten k) {
-        if (temp.wort.wort.compareTo(k.wort.wort) > 0) {
+        if (temp.wort.name.compareTo(k.wort.name) > 0) {
             if (temp.left == null) {
                 temp.left = k;
             } else insert(temp.left, k);
@@ -51,10 +51,10 @@ public class Baum {
         if (temp == null) {
             return null;
         }
-        if (temp.wort.wort.equals(w.wort)) {
+        if (temp.wort.name.equals(w.name)) {
             return temp.wort.bedeutung;
         }
-        if (w.wort.compareTo(temp.wort.wort) < 0) {
+        if (w.name.compareTo(temp.wort.name) < 0) {
             return search(temp.left, w);
         } else {
             return search(temp.right, w);
@@ -84,7 +84,7 @@ public class Baum {
             return null;
         }
 
-        int vergleich = w.wort.compareTo(temp.wort.wort);
+        int vergleich = w.name.compareTo(temp.wort.name);
 
         if (vergleich < 0) {
             temp.left = deleteKnoten(temp.left, w);
